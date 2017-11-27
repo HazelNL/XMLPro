@@ -1,0 +1,13 @@
+public class Warrior {
+  private int hp;
+  private String name;
+  
+  public Warrior(String name, int hp) {
+    this.name = name;
+    this.hp = hp;
+  }
+  
+  public void attack() {
+    System.out.println("戦士の一撃！");
+  }
+}
