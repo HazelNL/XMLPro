@@ -1,0 +1,16 @@
+public class Main {
+
+	public static void main(String[] args) {
+	    // 各クラス型のインスタンスを用意
+		Masician m = new Masician();
+		Warrior w = new Warrior();
+	    Monk mo = new Monk();
+		Command c = new Command();
+		
+	    // それぞれのattack()メソッドを実行
+		c.func(m);
+		c.func(w);
+		c.func(mo);
+		
+	  }
+	}
