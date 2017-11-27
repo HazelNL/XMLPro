@@ -1,0 +1,13 @@
+public class Masician {
+  private int hp;
+  private String name;
+  
+  public Masician(String name, int hp) {
+    this.name = name;
+    this.hp = hp;
+  }
+  
+  public void attack() {
+    System.out.println("魔法使いの一撃！");
+  }
+}
