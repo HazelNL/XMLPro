@@ -1,0 +1,14 @@
+public class Main {
+  public static void main(String[] args) {
+  
+    // それぞれのインスタンスを生成
+    Masician m = new Masician("山平", 100);
+    Warrior w = new Warrior("今村", 100);
+    Monk mo = new Monk("梅田", 100);
+    
+    // それぞれのattack()メソッドを実行
+    m.attack();
+    w.attack();
+    mo.attack();
+ 　}
+}
