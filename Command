@@ -1,0 +1,6 @@
+public class Command {
+
+	public void func(Behaivior beha){
+		 beha.attack();
+	}
+}
