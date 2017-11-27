@@ -2,13 +2,11 @@ public class Main {
   public static void main(String[] args) {
   
     // それぞれのインスタンスを生成
-    Hero h = new Hero("佐藤", 100);
     Masician m = new Masician("鈴木", 100);
     Warrior w = new Warrior("高橋", 100);
     Monk m = new Monk("田中", 100);
     
     // それぞれのattack()メソッドを実行
-    h.attack();
     m.attack();
     w.attack();
     m.attack();  
