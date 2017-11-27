@@ -11,8 +11,7 @@ public class Main {
     h.attack();
     m.attack();
     w.attack();
-    m.attack();
-    
+    m.attack();  
   }
-
 }
+
