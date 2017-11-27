@@ -1,0 +1,7 @@
+public class Masician implements Behaivior{
+
+	  @Override
+	  public void attack() {
+	    System.out.println("魔法使いの一撃！");
+	  }
+}
