@@ -1,0 +1,7 @@
+public class Monk implements Behaivior{
+
+		  @Override
+		  public void attack() {
+		    System.out.println("武闘家の一撃！");
+		  }
+}
