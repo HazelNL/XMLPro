@@ -1,19 +1,18 @@
 public class Main {
 
-  public static void main(String[] args) {
+	public static void main(String[] args) {
   
-    // Characterクラス型の配列を用意
-    Character[] c = new Character[3];
-    // それぞれのインスタンスを生成    
-    Character[0] = new Masicain("山平", 100);
-    Character[1] = new Monk("今村", 100);
-    Character[2] = new Masicain(梅田", 100);
-    
-    // それぞれのattack()メソッドを実行
-    for(int index = 0; index < c.length; index++) {
-      Character[index].attack();
-    }
+	    // Characterクラス型の配列を用意
+	    Character[] chara = new Character[3];
+	    // それぞれのインスタンスを生成 
+	    chara[0] = new Masician("山平", 100);
+	    chara[1] = new Warrior("今村", 100);
+	    chara[2] = new Monk("梅田", 100);
+	    
+	    // それぞれのattack()メソッドを実行
+	    for(int i = 0; i < chara.length; i++) {
+	      chara[i].attack();
+	    }
 
-  }
-
-}
+	  }
+	}
